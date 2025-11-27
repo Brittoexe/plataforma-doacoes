@@ -1,4 +1,5 @@
-// src/services/api.js
+import MinhasSolicitacoes from "./pages/MinhasSolicitacoes";
+import SolicitacoesRecebidas from "./pages/SolicitacoesRecebidas";
 import axios from "axios";
 
 const api = axios.create({
